@@ -1,0 +1,40 @@
+# dependencies
+
+# dependencies needed to compile software 
+base-devel
+libX11-devel
+libXinerama-devel
+libXft-devel
+libXrandr-devel
+fontconfig-devel
+freetype-devel
+gtk+3-devel
+libglib-devel
+gcr-devel
+webkit2gtk
+webkit2gtk-devel
+
+# fonts
+font-firacode
+font-Siji
+dejavu-fonts-ttf
+
+# xorg baseline
+xorg
+
+# utilities
+alsa-utils
+go
+picom
+
+# screenshot utility
+scrot
+
+# browser
+firefox
+
+# image viewer and background setter
+feh
+
+# nice gui file manager
+pcmanfm
