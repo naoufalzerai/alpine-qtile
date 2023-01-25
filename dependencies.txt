@@ -1,40 +1,52 @@
 # dependencies
 
-# dependencies needed to compile software 
-base-devel
-libX11-devel
-libXinerama-devel
-libXft-devel
-libXrandr-devel
-fontconfig-devel
-freetype-devel
-gtk+3-devel
-libglib-devel
-gcr-devel
-webkit2gtk
-webkit2gtk-devel
+# dependencies needed to compile software
+dbus
+xdg-desktop-portal
+xdg-desktop-portal-wlr
+linux-firmware
+wireless-tools
+iwd
+util-linux
+alsa-utils
+alsa-utils-doc
+alsa-lib
+alsaconf
+alsa-ucm-conf
+curl
+zsh
+light
+gawk
+vim
+feh
+bash
+bash-doc
+bash-completion
+udisks2
+udisks2-doc
+pciutils
+xf86-input-evdev
+xf86-input-synaptics
+mesa-dri-gallium
+g++
 
 # fonts
-font-firacode
-font-Siji
-dejavu-fonts-ttf
-
-# xorg baseline
-xorg
+font-fira-code
+font-siji
+font-dejavu
 
 # utilities
-alsa-utils
+git
+make
 go
 picom
 
-# screenshot utility
+# screenshot utilities
 scrot
+slurp
 
 # browser
 firefox
-
-# image viewer and background setter
-feh
 
 # nice gui file manager
 pcmanfm

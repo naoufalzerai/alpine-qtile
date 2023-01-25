@@ -57,4 +57,11 @@ make install
 cd ..
 cd ..
 
+rc-service dbus start
+rc-update add dbus
+rc-service iwd start
+rc-update add iwd
+rc-service alsa start
+rc-update add alsa
+
 echo "Install finished. You should copy over the .xinitrc and .profile files and reboot."

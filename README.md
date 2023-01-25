@@ -5,8 +5,13 @@ Includes my own custom set of suckless tools (dwm, slstatus, dmenu, etc.)
 
 ## Downloading
 
-After going through the standard Alpine installer, login as your created user and
-pull the repo:
+1. Download the latest Alpine image
+2. Run `setup-alpine`
+3. Run `setup-xorg-base`
+4. [Enable community repos](https://wiki.alpinelinux.org/wiki/Repositories#Enabling_the_community_repository)
+
+After finishing the above, login as your created user and
+pull the repo: (installing git might be required)
 
 `git clone https://git.sr.ht/~bt/alpine-suck`
 
@@ -46,6 +51,12 @@ startx
 ```
 
 ## Possible Tweaks / Troubleshooting
+
+You might need to run the following for machines running older Intel Graphics:
+
+```
+export MESA_LOADER_DRIVER_OVERRIDE=crocus
+```
 
 If you're having issues with the user you created during the Alpine installer, run the following:
 
