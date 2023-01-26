@@ -8,11 +8,27 @@ Includes my own custom set of suckless tools (dwm, slstatus, dmenu, etc.)
 1. Download the latest Alpine image
 2. Run `setup-alpine`
 3. Run `setup-xorg-base`
-4. [Enable community repos](https://wiki.alpinelinux.org/wiki/Repositories#Enabling_the_community_repository)
-5. Install git, vim and bash
+4. [Enable community/edge repos](https://wiki.alpinelinux.org/wiki/Repositories#Enabling_the_community_repository)
+5. Install git, vim, bash, & sudo
+6. Edit sudoers and give wheel group access
 
-After finishing the above, login as your created user and
-pull the repo:
+After finishing the above, create a user:
+
+```
+adduser -g "Real Name" username
+```
+
+Then add them to all required groups (wheel,users,audio,video,cdrom,input,tty):
+
+```
+adduser username wheel
+```
+
+Then logout of `root` user.
+
+---
+
+Login as your newly created user and run the following:
 
 `git clone https://git.sr.ht/~bt/alpine-suck`
 
@@ -57,12 +73,6 @@ You might need to run the following for machines running older Intel Graphics:
 
 ```
 export MESA_LOADER_DRIVER_OVERRIDE=crocus
-```
-
-If you're having issues with the user you created during the Alpine installer, run the following:
-
-```sh
-useradd -m -s /bin/bash -U -G wheel,users,audio,video,cdrom,input,tty alpineuser
 ```
 
 ---

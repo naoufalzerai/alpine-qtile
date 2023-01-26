@@ -1,25 +1,12 @@
 # dependencies
 
-# dependencies needed to compile software
+# core dependencies
 dbus
 xdg-desktop-portal
 xdg-desktop-portal-wlr
 linux-firmware
-wireless-tools
-iwd
+linux-headers
 util-linux
-alsa-utils
-alsa-utils-doc
-alsa-lib
-alsaconf
-alsa-ucm-conf
-curl
-zsh
-light
-gawk
-feh
-bash-doc
-bash-completion
 udisks2
 udisks2-doc
 pciutils
@@ -27,18 +14,27 @@ xf86-input-evdev
 xf86-input-synaptics
 mesa-dri-gallium
 g++
-zzz
+shadow
 libx11-dev
 libxinerama-dev
 fontconfig-dev
 libxft-dev
 ncurses
+
+# networking
+wireless-tools
+dhcpcd
+iwd
 networkmanager
 networkmanager-wifi
 networkmanager-tui
-dhcpcd
-slop
-xrandr
+
+# audio
+alsa-utils
+alsa-utils-doc
+alsa-lib
+alsaconf
+alsa-ucm-conf
 
 # fonts
 font-fira-code
@@ -46,17 +42,33 @@ font-siji
 font-dejavu
 
 # utilities
-git
+wget
+curl
+zsh
+light
+gawk
+feh
 make
 go
 picom
+dunst
+xrandr
+bash-doc
+bash-completion
+zzz
 
 # screenshot utilities
 scrot
 slurp
+slop
 
-# browser
+# browsers and browser dependencies
 firefox
+glib-dev
+webkit2gtk
+webkit2gtk-dev
+gcr
+gcr-dev
 
 # nice gui file manager
 pcmanfm
