@@ -9,9 +9,10 @@ Includes my own custom set of suckless tools (dwm, slstatus, dmenu, etc.)
 2. Run `setup-alpine`
 3. Run `setup-xorg-base`
 4. [Enable community repos](https://wiki.alpinelinux.org/wiki/Repositories#Enabling_the_community_repository)
+5. Install git, vim and bash
 
 After finishing the above, login as your created user and
-pull the repo: (installing git might be required)
+pull the repo:
 
 `git clone https://git.sr.ht/~bt/alpine-suck`
 

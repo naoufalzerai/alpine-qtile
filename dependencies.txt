@@ -17,9 +17,7 @@ curl
 zsh
 light
 gawk
-vim
 feh
-bash
 bash-doc
 bash-completion
 udisks2
@@ -29,6 +27,18 @@ xf86-input-evdev
 xf86-input-synaptics
 mesa-dri-gallium
 g++
+zzz
+libx11-dev
+libxinerama-dev
+fontconfig-dev
+libxft-dev
+ncurses
+networkmanager
+networkmanager-wifi
+networkmanager-tui
+dhcpcd
+slop
+xrandr
 
 # fonts
 font-fira-code
