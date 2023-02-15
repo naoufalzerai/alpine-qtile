@@ -62,6 +62,9 @@ scrot
 slurp
 slop
 
+# code editor
+lite-xl
+
 # browsers and browser dependencies
 firefox
 glib-dev

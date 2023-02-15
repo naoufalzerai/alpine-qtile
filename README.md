@@ -97,3 +97,26 @@ snd-pcm-oss
 ```
 
 This will take on the next reboot of the machine.
+
+## Extras
+
+The following is completely optional.
+
+Install `lite-xl` editor:
+
+```
+sudo apk add lite-xl
+```
+
+Then install the plugin manager (`lpm`):
+
+```
+wget https://github.com/lite-xl/lite-xl-plugin-manager/releases/download/latest/lpm.x86_64-linux -O lpm && chmod +x lpm
+```
+
+Now `lite-xl` plugins can be installed via:
+
+```
+./lpm install plugin_name
+```
+
