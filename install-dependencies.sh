@@ -5,7 +5,7 @@ if [ "$EUID" -ne 0 ]
   exit
 fi
 
-echo "This script is designed for void linux and it will not work with in any other OS"
+echo "This script is designed for Alpine Linux and it will not work with in any other OS"
 echo "Installing dependencies listed in dependencies.txt..."
 
 sed -e 's/#.*$//' -e '/^$/d' dependencies.txt | while read p; do
