@@ -5,8 +5,8 @@ if [ "$EUID" -ne 0 ]
   exit
 fi
 
-mkdir /home/bt/.suckless
-cd /home/bt/.suckless
+mkdir /home/gjoanes/.suckless
+cd /home/gjoanes/.suckless
 
 git clone https://git.sr.ht/~bt/dwm
 cd dwm
@@ -44,23 +44,20 @@ echo "Installing slock"
 make install
 cd ..
 
-git clone https://git.sr.ht/~sircmpwn/scdoc
-cd scdoc
-echo "Installing scdoc"
-make install
-cd ..
 
-git clone https://git.sr.ht/~rjarry/aerc
-cd aerc
-echo "Installing aerc"
-make install
-cd ..
+
 cd ..
 
 rc-service dbus start
 rc-update add dbus
-rc-service iwd start
-rc-update add iwd
+
+rc-service networking stop
+rc-service wpa_supplicant stop
+rc-update del networking boot
+rc-update del wpa_supplicant boot
+rc-service networkmanager start
+rc-update networkmanager networkmanager
+
 rc-service alsa start
 rc-update add alsa
 

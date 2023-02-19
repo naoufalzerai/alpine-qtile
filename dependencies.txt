@@ -10,8 +10,8 @@ util-linux
 udisks2
 udisks2-doc
 pciutils
-xf86-input-evdev
-xf86-input-synaptics
+xf86-input-libinput
+xf86-video-intel
 mesa-dri-gallium
 g++
 shadow
@@ -24,10 +24,11 @@ ncurses
 # networking
 wireless-tools
 dhcpcd
-iwd
 networkmanager
 networkmanager-wifi
 networkmanager-tui
+networkmanager-cli
+network-manager-applet
 
 # audio
 alsa-utils
@@ -44,12 +45,10 @@ font-dejavu
 # utilities
 wget
 curl
-zsh
 light
 gawk
 feh
 make
-go
 picom
 dunst
 xrandr
@@ -62,16 +61,9 @@ scrot
 slurp
 slop
 
-# code editor
-lite-xl
 
 # browsers and browser dependencies
-firefox
-glib-dev
-webkit2gtk
-webkit2gtk-dev
-gcr
-gcr-dev
+qutebrowser
 
 # nice gui file manager
 pcmanfm

@@ -43,7 +43,7 @@ Login as your newly created user and run the following:
 
 ```sh
 cd alpine-suck # CD into this repository
-sudo ./install-dependencies.sh # Install alpine packages
+doas ./install-dependencies.sh # Install alpine packages
 ```
 
 Be sure to edit the main `install.sh` file and change the username "bt" to your own:
@@ -56,7 +56,7 @@ cd /home/bt/.suckless
 Save your changes and then run:
 
 ```sh
-sudo ./install.sh # Install suckless tools
+doas ./install.sh # Install suckless tools
 cp .xinitrc ~/.xinitrc # Apply .xinitrc
 cp .profile ~/.profile # Apply .profile
 ```
