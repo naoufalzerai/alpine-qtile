@@ -2,6 +2,8 @@
 
 # core dependencies
 dbus
+eudev
+seatd
 xdg-desktop-portal
 xdg-desktop-portal-wlr
 linux-firmware
@@ -10,8 +12,15 @@ util-linux
 udisks2
 udisks2-doc
 pciutils
-xf86-input-libinput
-xf86-video-intel
+wlroots
+wayland-protocols
+wayland-libs-client
+wayland-libs-cursor
+pixman
+fcft
+uthash
+foot
+bemenu
 mesa-dri-gallium
 g++
 shadow
@@ -51,19 +60,13 @@ feh
 make
 picom
 dunst
-xrandr
-bash-doc
 bash-completion
 zzz
 
 # screenshot utilities
-scrot
-slurp
-slop
 
 
 # browsers and browser dependencies
 qutebrowser
 
 # nice gui file manager
-pcmanfm
