@@ -12,6 +12,12 @@ util-linux
 udisks2
 udisks2-doc
 pciutils
+libinput-libs
+libxcb
+libxkbcommon
+wayland-libs-server
+wlroots
+xcb-util-wm
 wlroots
 wayland-protocols
 wayland-libs-client
@@ -45,6 +51,7 @@ alsa-utils-doc
 alsa-lib
 alsaconf
 alsa-ucm-conf
+pavucontrol
 
 # fonts
 font-fira-code
