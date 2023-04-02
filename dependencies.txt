@@ -42,6 +42,8 @@ terminus-font
 font-awesome
 
 # utilities
+htop
+neofetch
 wget
 curl
 light
