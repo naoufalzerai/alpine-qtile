@@ -66,6 +66,7 @@ powertop
 cpufreqd
 i3lock
 xfce4-power-manager
+apptainer
 
 # screenshot utilities
 gnome-screenshot
