@@ -46,6 +46,8 @@ font-awesome
 # utilities
 htop
 neofetch
+neovim
+nodejs
 wget
 curl
 light
@@ -67,6 +69,7 @@ cpufreqd
 i3lock
 xfce4-power-manager
 apptainer
+transmission-qt
 
 # screenshot utilities
 gnome-screenshot
