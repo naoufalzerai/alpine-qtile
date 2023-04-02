@@ -40,6 +40,11 @@ rc-update add lightdm
 rc-service cpufreqd start
 rc-update add cpufreqd
 
+cp qtile.desktop /usr/share/xsessions/
+cp NetworkManager.conf /etc/NetworkManager/NetworkManager.conf
+cp 50-org.freedesktop.NetworkManager.rules /etc/polkit-1/rules.d/50-org.freedesktop.NetworkManager.rules
+
+
 
 
 

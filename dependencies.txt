@@ -3,7 +3,7 @@
 # core dependencies
 dbus
 eudev
-udisks2
+udiskie
 qtile
 acpi
 pciutils
@@ -32,11 +32,9 @@ networkmanager-openvpn
 network-manager-applet
 
 # audio
-pipewire
-pipewire-alsa
-pipewire-pulseaudio
-pipewire-jack
-wireplumber
+pulseaudio 
+pulseaudio-alsa
+alsa-plugins-pulse
 pavucontrol
 
 # fonts
@@ -76,10 +74,11 @@ gnome-screenshot
 
 # browsers and browser dependencies
 qutebrowser
-chromium-qt5
+chromium
 
 # display manager
-lightdm-qt5
+lightdm
+lightdm-gtk-greeter
 
 # eduvpn
 py3-pip py3-dbus py3-gobject3
