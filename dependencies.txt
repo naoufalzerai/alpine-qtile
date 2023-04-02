@@ -18,6 +18,8 @@ polkit
 elogind 
 polkit-elogind
 xrandr
+xfce4-terminal
+alacritty
 
 # networking
 wireless-tools
@@ -63,6 +65,7 @@ okular
 powertop
 cpufreqd
 i3lock
+xfce4-power-manager
 
 # screenshot utilities
 gnome-screenshot
