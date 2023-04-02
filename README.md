@@ -9,54 +9,26 @@ Includes my own custom set of suckless tools (dwm, slstatus, dmenu, etc.)
 2. Run `setup-alpine`
 3. Run `setup-xorg-base`
 4. [Enable community/edge repos](https://wiki.alpinelinux.org/wiki/Repositories#Enabling_the_community_repository)
-5. Install git, vim, bash, & sudo
-6. Edit sudoers and give wheel group access
+5. Install git
+6. reboot
 
-After finishing the above, create a user:
 
-```
-adduser -g "Real Name" username
-```
-
-Then add them to all required groups (wheel,users,audio,video,cdrom,input,tty):
-
-```
-adduser username wheel
-```
-
-Then logout of `root` user.
 
 ---
 
 Login as your newly created user and run the following:
 
-`git clone https://git.sr.ht/~bt/alpine-suck`
+`git clone https://github.com/grandjeanlab/alpine-suck`
 
 `cd alpine-suck`
 
 ## Installing
+1) Change kernal by running `doas ./change-kernel.sh`
+2) Install dependencies by running `doas ./install.sh`. The script will simply read required packages from `dependencies.txt` and run apk add.
+3) Finish installing by running the `./install-nodoas.sh`
 
-1) Install dependencies by running `./install-dependencies.sh`. The script will simply read required packages from `dependencies.txt` and run apk add.
-2) Compile and install suckless software by running the `./install.sh`
-
-## TLDR
-
-```sh
-cd alpine-suck # CD into this repository
-doas ./install-dependencies.sh # Install alpine packages
-```
-
-Be sure to edit the main `install.sh` file and change the username "bt" to your own:
 
 ```sh
-mkdir /home/bt/.suckless
-cd /home/bt/.suckless
-```
-
-Save your changes and then run:
-
-```sh
-doas ./install.sh # Install suckless tools
 cp .xinitrc ~/.xinitrc # Apply .xinitrc
 cp .profile ~/.profile # Apply .profile
 ```
@@ -97,26 +69,3 @@ snd-pcm-oss
 ```
 
 This will take on the next reboot of the machine.
-
-## Extras
-
-The following is completely optional.
-
-Install `lite-xl` editor:
-
-```
-sudo apk add lite-xl
-```
-
-Then install the plugin manager (`lpm`):
-
-```
-wget https://github.com/lite-xl/lite-xl-plugin-manager/releases/download/latest/lpm.x86_64-linux -O lpm && chmod +x lpm
-```
-
-Now `lite-xl` plugins can be installed via:
-
-```
-./lpm install plugin_name
-```
-

@@ -3,38 +3,21 @@
 # core dependencies
 dbus
 eudev
-seatd
-xdg-desktop-portal
-xdg-desktop-portal-wlr
-linux-firmware
-linux-headers
-util-linux
 udisks2
-udisks2-doc
+qtile
+acpi
 pciutils
+iputils
 libinput-libs
 libxcb
 libxkbcommon
-wayland-libs-server
-wlroots
-xcb-util-wm
-wlroots
-wayland-protocols
-wayland-libs-client
-wayland-libs-cursor
-pixman
-fcft
-uthash
-foot
-bemenu
+dmenu
 mesa-dri-gallium
-g++
 shadow
-libx11-dev
-libxinerama-dev
-fontconfig-dev
-libxft-dev
-ncurses
+polkit
+elogind 
+polkit-elogind
+xrandr
 
 # networking
 wireless-tools
@@ -43,37 +26,51 @@ networkmanager
 networkmanager-wifi
 networkmanager-tui
 networkmanager-cli
+networkmanager-openvpn
 network-manager-applet
 
 # audio
-alsa-utils
-alsa-utils-doc
-alsa-lib
-alsaconf
-alsa-ucm-conf
+pipewire
+pipewire-alsa
+pipewire-pulseaudio
+pipewire-jack
+wireplumber
 pavucontrol
 
 # fonts
-font-fira-code
-font-siji
-font-dejavu
+terminus-font
+font-awesome
 
 # utilities
 wget
 curl
 light
-gawk
 feh
-make
-picom
 dunst
-bash-completion
 zzz
+thunar
+playerctl
+tigervnc
+libreoffice
+gimp
+inkscape
+vlc-qt
+flatpak
+mupdf 
+okular
+powertop
+cpufreqd
+i3lock
 
 # screenshot utilities
-
+gnome-screenshot
 
 # browsers and browser dependencies
 qutebrowser
+chromium-qt5
 
-# nice gui file manager
+# display manager
+lightdm-qt5
+
+# eduvpn
+py3-pip py3-dbus py3-gobject3
