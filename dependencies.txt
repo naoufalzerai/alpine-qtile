@@ -2,14 +2,13 @@
 
 # core dependencies
 xorg-server
-x86-input-libinput
+xf86-input-libinput
 dbus
 eudev
 udiskie
 qtile
 acpi
 pciutils
-iputils
 libinput-libs
 libxcb
 libxkbcommon
@@ -71,6 +70,7 @@ xfce4-power-manager
 apptainer
 transmission-qt
 setxkbmap
+fortune
 
 # screenshot utilities
 gnome-screenshot
