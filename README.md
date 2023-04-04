@@ -17,12 +17,12 @@ Lightweight Desktop installer for Alpine Linux based on qtile
 
 Login as your newly created user and run the following:
 
-`git clone https://github.com/grandjeanlab/alpine-suck`
+`git clone https://github.com/grandjeanlab/alpine-qtile`
 
-`cd alpine-suck`
+`cd alpine-qtile`
 
 ## Installing
-1) Change kernal by running `doas ./change-kernel.sh`
+1) Change kernal by running `doas ./change-kernel.sh`  (only if you want to use edge instead of lts)
 2) Install dependencies by running `doas ./install.sh`. The script will simply read required packages from `dependencies.txt` and run apk add.
 3) Finish installing by running the `./install-nodoas.sh`
 
