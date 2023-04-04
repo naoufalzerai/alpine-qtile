@@ -1,6 +1,8 @@
 # dependencies
 
 # core dependencies
+xorg-server
+x86-input-libinput
 dbus
 eudev
 udiskie
@@ -68,6 +70,7 @@ i3lock
 xfce4-power-manager
 apptainer
 transmission-qt
+setxkbmap
 
 # screenshot utilities
 gnome-screenshot
