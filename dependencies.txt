@@ -35,6 +35,8 @@ network-manager-applet
 # audio
 pulseaudio 
 pulseaudio-alsa
+pulseaudio-ctl
+pulseaudio-jack
 alsa-plugins-pulse
 pavucontrol
 

@@ -33,13 +33,13 @@ rc-service networkmanager start
 rc-update add networkmanager
 
 #start display manager
-rc-service lightdm start
 rc-update add lightdm
 
 #start freq scaline
 rc-service cpufreqd start
 rc-update add cpufreqd
 
+mkdir -p /usr/share/xsessions/
 cp qtile.desktop /usr/share/xsessions/
 cp NetworkManager.conf /etc/NetworkManager/NetworkManager.conf
 cp 50-org.freedesktop.NetworkManager.rules /etc/polkit-1/rules.d/50-org.freedesktop.NetworkManager.rules
