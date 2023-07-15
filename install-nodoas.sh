@@ -1,5 +1,4 @@
-#!/bin/env sh
-
+#!/bin/ash
 mkdir -p ~/.local/bin
 mkdir -p ~/.config/networkmanager-dmenu/
 mkdir -p ~/.local/share/applications
