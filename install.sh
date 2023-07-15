@@ -11,10 +11,10 @@ done
 setup-devd udev
 
 #add user to groups
-adduser gjoanes input
-adduser gjoanes video
-adduser gjoanes audio
-adduser gjoanes flatpak
+adduser near input
+adduser near video
+adduser near audio
+adduser near flatpak
 
 #start dbus
 rc-service dbus start
