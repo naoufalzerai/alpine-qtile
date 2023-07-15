@@ -1,4 +1,4 @@
-#!/bin/env sh
+#!/bin/ash
 echo "Installing dependencies listed in dependencies.txt..."
 
 sed -e 's/#.*$//' -e '/^$/d' dependencies.txt | while read p; do
