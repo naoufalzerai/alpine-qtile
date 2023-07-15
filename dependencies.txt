@@ -47,8 +47,6 @@ font-awesome
 # utilities
 htop
 neofetch
-neovim
-nodejs
 wget
 curl
 light
@@ -57,10 +55,6 @@ dunst
 zzz
 thunar
 playerctl
-tigervnc
-libreoffice
-gimp
-inkscape
 vlc-qt
 flatpak
 mupdf 
@@ -76,10 +70,6 @@ fortune
 
 # screenshot utilities
 gnome-screenshot
-
-# browsers and browser dependencies
-qutebrowser
-chromium
 
 # display manager
 lightdm
